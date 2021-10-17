@@ -1,0 +1,30 @@
+.Box {
+    display: inline-block;
+    text-align: left;
+    border: 1px solid black;
+    padding: 0 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    font-style: italic;
+    color: darkcyan;
+}
+
+.Login h2{
+    text-align: center;
+}
+.Login > form {
+	width: 300px;
+    text-align: left;
+}
+.Login input, .Login button, .Login label {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: large;
+    margin-bottom: 30px;
+}
+.Login span {
+    color: red;
+    margin: 0 20px;
+    position: absolute;
+}

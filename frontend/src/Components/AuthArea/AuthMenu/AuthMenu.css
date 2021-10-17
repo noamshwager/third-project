@@ -1,0 +1,10 @@
+.AuthMenu{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+.AuthMenu .active {
+    color: darkcyan;
+    font-weight: bold;
+    font-family: Arial;
+}

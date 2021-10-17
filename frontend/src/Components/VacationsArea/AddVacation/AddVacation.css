@@ -1,0 +1,45 @@
+/* .AddVacation{
+    display: inline;
+    margin-top: 50px;
+    width: 500px;
+    background-image: linear-gradient(45deg, lightgreen, white);
+    display: inline-flex;
+    align-items: center;
+    border: 3px solid black;
+} */
+.AddVacation{
+    background-image: linear-gradient(45deg, lightgreen, white);
+    width: 500px;
+    border: 3px solid black;
+    display: inline-block;
+    text-align: left;
+    padding: 0 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    font-style: italic;
+    color: darkcyan;
+}
+
+.AddVacation h2{
+    text-align: center;
+}
+
+.AddVacation > form {
+	width: 300px;
+    margin: auto;
+    text-align: left;
+}
+
+.AddVacation input, .AddVacation button, .AddVacation label, .AddVacation textarea {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+.AddVacation span {
+    color: red;
+    margin: 0 20px;
+    position: absolute;
+}

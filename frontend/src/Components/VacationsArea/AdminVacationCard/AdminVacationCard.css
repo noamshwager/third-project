@@ -1,0 +1,40 @@
+.AdminVacationCard {
+    display: inline-flex;
+    align-items: center;
+    background-image: linear-gradient(45deg, lightgreen, white);
+    padding-right: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    font-style: italic;
+}
+.AdminVacationCard label{
+    font-weight: bold;
+}
+.AdminVacationCard>div{
+    width: 300px;
+    height: 350px;
+}
+
+.AdminVacationCard section{
+    position: relative;
+    right: -130px;
+    height: 5px;
+}
+
+.AdminVacationCard span{
+    max-width: 292px;
+    word-wrap: break-word;
+}
+
+.AdminVacationCard img {
+    width: 250px;
+    height: 158px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+.AdminVacationCard > a {
+    margin-left: auto;
+}

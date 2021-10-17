@@ -1,0 +1,37 @@
+
+.EditVacation{
+    background-image: linear-gradient(45deg, lightgreen, white);
+    width: 500px;
+    border: 3px solid black;
+    display: inline-block;
+    text-align: left;
+    padding: 0 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    font-style: italic;
+    color: darkcyan;
+}
+
+.EditVacation h2{
+    text-align: center;
+}
+
+.EditVacation > form {
+	width: 300px;
+    margin: auto;
+    text-align: left;
+}
+
+.EditVacation input, .EditVacation button, .EditVacation label, .EditVacation textarea {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+.EditVacation span {
+    color: red;
+    margin: 0 20px;
+    position: absolute;
+}
